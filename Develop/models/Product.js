@@ -12,7 +12,7 @@ Product.init(
       autoIncrement: true,
     },
     product_name: {
-      type: DataTypes.String,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     price: {
